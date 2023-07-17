@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-#define BLYNK_TEMPLATE_ID "TMPL38yR_clE"
-#define BLYNK_DEVICE_NAME "Fire Alarm 3"
-#define BLYNK_AUTH_TOKEN "6qVODjUwNl7cnyd-aiz1GAz1B0t8XbMh"
+#define BLYNK_TEMPLATE_ID "<BLYNK TEMPLATE ID goes here>"
+#define BLYNK_DEVICE_NAME "<BLYNK DEVICE NAME goes here>"
+#define BLYNK_AUTH_TOKEN "<BLYNK AUTH TOKEN goes here>"
 
 #define BLYNK_PRINT Serial
 
@@ -13,8 +13,8 @@ const int Buzzer = D6;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "Redmi Note 8 Pro"; // wifi name
-char pass[] = "12345678";         // wifi password
+char ssid[] = "<WIFI SSID goes here>"; // wifi name
+char pass[] = "<WIFI PASSWORD goes here>";         // wifi password
 
 BlynkTimer timer;
 
